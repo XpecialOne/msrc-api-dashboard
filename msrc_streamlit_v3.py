@@ -6,7 +6,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 
 # Set page configuration
-st.set_page_config(page_title="Microsoft Patch Dashboard", page_icon="🛡️", layout="wide")
+st.set_page_config(page_title="Microsoft Patch Dashboard by Soufiane M.", page_icon="🛡️", layout="wide")
 
 # Custom CSS to improve the look and feel
 st.markdown("""
@@ -209,7 +209,7 @@ def fetch_trend_data():
 
 # Main Streamlit interface
 def main():
-    st.title("Microsoft Patch Dashboard")
+    st.title("Microsoft Patch Dashboard by Soufiane M.")
 
     # Sidebar with logo and navigation
     st.sidebar.markdown(logo_html, unsafe_allow_html=True)
