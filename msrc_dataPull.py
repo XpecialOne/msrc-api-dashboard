@@ -110,7 +110,7 @@ def fetch_microsoft_vulnerabilities():
                 }
                 for vuln in data.get("Vulnerability", [])
             ])
-           # time.sleep(0.1)  # To avoid hitting rate limits
+            time.sleep(0.1)  # To avoid hitting rate limits
 
         return vulnerabilities
     except Exception as e:
